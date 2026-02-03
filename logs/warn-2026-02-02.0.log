@@ -1,0 +1,3 @@
+2026-02-02 20:49:02 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'jobCategoryMapper' and 'com.reginyuan.job.mapper.JobCategoryMapper' mapperInterface. Bean already defined with the same name!
+2026-02-02 20:49:02 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'jobsMapper' and 'com.reginyuan.job.mapper.JobsMapper' mapperInterface. Bean already defined with the same name!
+2026-02-02 20:49:02 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.reginyuan.job.mapper]' package. Please check your configuration.

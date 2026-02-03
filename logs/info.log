@@ -1,0 +1,378 @@
+2026-02-03 11:54:53 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2026-02-03 11:54:53 [restartedMain] INFO  com.reginyuan.job.JobApplication - Starting JobApplication using Java 1.8.0_472 on ReginYuan with PID 27868 (D:\code\java\job\target\classes started by Administrator in D:\code\java\job)
+2026-02-03 11:54:53 [restartedMain] INFO  com.reginyuan.job.JobApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-03 11:54:53 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-03 11:54:53 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-03 11:54:55 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2026-02-03 11:54:55 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2026-02-03 11:54:55 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-03 11:54:55 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2026-02-03 11:54:55 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-03 11:54:55 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1959 ms
+2026-02-03 11:54:57 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-02-03 11:54:57 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-02-03 11:54:57 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2026-02-03 11:54:57 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2026-02-03 11:54:57 [http-nio-8090-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-03 11:54:57 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-03 11:54:57 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2026-02-03 11:54:57 [restartedMain] INFO  com.reginyuan.job.JobApplication - Started JobApplication in 4.856 seconds (JVM running for 6.81)
+2026-02-03 11:54:58 [http-nio-8090-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-02-03 11:54:58 [http-nio-8090-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-02-03 12:25:59 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-02-03 12:25:59 [Thread-5] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:25:59 [Thread-5] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-02-03 12:25:59 [Thread-5] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2026-02-03 12:25:59 [Thread-5] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:25:59 [Thread-5] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:25:59 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-02-03 12:25:59 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-02-03 12:25:59 [restartedMain] INFO  com.reginyuan.job.JobApplication - Starting JobApplication using Java 1.8.0_472 on ReginYuan with PID 27868 (D:\code\java\job\target\classes started by Administrator in D:\code\java\job)
+2026-02-03 12:25:59 [restartedMain] INFO  com.reginyuan.job.JobApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-03 12:25:59 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2026-02-03 12:26:00 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:26:00 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-03 12:26:00 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2026-02-03 12:26:00 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-03 12:26:00 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 392 ms
+2026-02-03 12:26:00 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-02-03 12:26:00 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-02-03 12:26:00 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:26:00 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2026-02-03 12:26:00 [restartedMain] INFO  com.reginyuan.job.JobApplication - Started JobApplication in 0.797 seconds (JVM running for 1869.174)
+2026-02-03 12:26:00 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-02-03 12:26:25 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-02-03 12:26:25 [Thread-8] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:26:25 [Thread-8] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-02-03 12:26:25 [Thread-8] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:26:25 [Thread-8] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:26:25 [restartedMain] INFO  com.reginyuan.job.JobApplication - Starting JobApplication using Java 1.8.0_472 on ReginYuan with PID 27868 (D:\code\java\job\target\classes started by Administrator in D:\code\java\job)
+2026-02-03 12:26:25 [restartedMain] INFO  com.reginyuan.job.JobApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-03 12:26:25 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2026-02-03 12:26:25 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:26:25 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-03 12:26:25 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2026-02-03 12:26:25 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-03 12:26:25 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 331 ms
+2026-02-03 12:26:26 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-02-03 12:26:26 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-02-03 12:26:26 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:26:26 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2026-02-03 12:26:26 [restartedMain] INFO  com.reginyuan.job.JobApplication - Started JobApplication in 0.633 seconds (JVM running for 1895.07)
+2026-02-03 12:26:26 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-02-03 12:26:27 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-02-03 12:26:27 [Thread-12] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:26:27 [Thread-12] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-02-03 12:26:27 [Thread-12] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:26:27 [Thread-12] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:26:28 [restartedMain] INFO  com.reginyuan.job.JobApplication - Starting JobApplication using Java 1.8.0_472 on ReginYuan with PID 27868 (D:\code\java\job\target\classes started by Administrator in D:\code\java\job)
+2026-02-03 12:26:28 [restartedMain] INFO  com.reginyuan.job.JobApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-03 12:26:28 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2026-02-03 12:26:28 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:26:28 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-03 12:26:28 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2026-02-03 12:26:28 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-03 12:26:28 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 198 ms
+2026-02-03 12:26:28 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-02-03 12:26:28 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-02-03 12:26:28 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:26:28 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2026-02-03 12:26:28 [restartedMain] INFO  com.reginyuan.job.JobApplication - Started JobApplication in 0.404 seconds (JVM running for 1897.334)
+2026-02-03 12:26:28 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-02-03 12:27:02 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-02-03 12:27:03 [Thread-16] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:27:03 [Thread-16] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-02-03 12:27:03 [Thread-16] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:27:03 [Thread-16] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:27:03 [restartedMain] INFO  com.reginyuan.job.JobApplication - Starting JobApplication using Java 1.8.0_472 on ReginYuan with PID 27868 (D:\code\java\job\target\classes started by Administrator in D:\code\java\job)
+2026-02-03 12:27:03 [restartedMain] INFO  com.reginyuan.job.JobApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-03 12:27:03 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2026-02-03 12:27:03 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:27:03 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-03 12:27:03 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2026-02-03 12:27:03 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-03 12:27:03 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 433 ms
+2026-02-03 12:27:03 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-02-03 12:27:03 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2026-02-03 12:27:06 [restartedMain] INFO  com.reginyuan.job.JobApplication - Starting JobApplication using Java 1.8.0_472 on ReginYuan with PID 27868 (D:\code\java\job\target\classes started by Administrator in D:\code\java\job)
+2026-02-03 12:27:06 [restartedMain] INFO  com.reginyuan.job.JobApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-03 12:27:06 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2026-02-03 12:27:06 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:27:06 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-03 12:27:06 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2026-02-03 12:27:06 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-03 12:27:06 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 230 ms
+2026-02-03 12:27:06 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-02-03 12:27:06 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-02-03 12:27:06 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:27:06 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2026-02-03 12:27:06 [restartedMain] INFO  com.reginyuan.job.JobApplication - Started JobApplication in 0.424 seconds (JVM running for 1935.398)
+2026-02-03 12:27:06 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-02-03 12:27:39 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-02-03 12:27:39 [Thread-20] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:27:39 [Thread-20] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-02-03 12:27:39 [Thread-20] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:27:39 [Thread-20] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:27:40 [restartedMain] INFO  com.reginyuan.job.JobApplication - Starting JobApplication using Java 1.8.0_472 on ReginYuan with PID 27868 (D:\code\java\job\target\classes started by Administrator in D:\code\java\job)
+2026-02-03 12:27:40 [restartedMain] INFO  com.reginyuan.job.JobApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-03 12:27:40 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2026-02-03 12:27:40 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:27:40 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-03 12:27:40 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2026-02-03 12:27:40 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-03 12:27:40 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 480 ms
+2026-02-03 12:27:40 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-02-03 12:27:40 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2026-02-03 12:27:42 [restartedMain] INFO  com.reginyuan.job.JobApplication - Starting JobApplication using Java 1.8.0_472 on ReginYuan with PID 27868 (D:\code\java\job\target\classes started by Administrator in D:\code\java\job)
+2026-02-03 12:27:42 [restartedMain] INFO  com.reginyuan.job.JobApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-03 12:27:42 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2026-02-03 12:27:42 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:27:42 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-03 12:27:42 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2026-02-03 12:27:42 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-03 12:27:42 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 235 ms
+2026-02-03 12:27:42 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-02-03 12:27:42 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-02-03 12:27:42 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:27:42 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2026-02-03 12:27:42 [restartedMain] INFO  com.reginyuan.job.JobApplication - Started JobApplication in 0.456 seconds (JVM running for 1971.364)
+2026-02-03 12:27:42 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-02-03 12:27:59 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-02-03 12:27:59 [Thread-27] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:27:59 [Thread-27] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-02-03 12:27:59 [Thread-27] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:27:59 [Thread-27] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:27:59 [restartedMain] INFO  com.reginyuan.job.JobApplication - Starting JobApplication using Java 1.8.0_472 on ReginYuan with PID 27868 (D:\code\java\job\target\classes started by Administrator in D:\code\java\job)
+2026-02-03 12:27:59 [restartedMain] INFO  com.reginyuan.job.JobApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-03 12:28:00 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2026-02-03 12:28:00 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:28:00 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-03 12:28:00 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2026-02-03 12:28:00 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-03 12:28:00 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 413 ms
+2026-02-03 12:28:00 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-02-03 12:28:00 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-02-03 12:28:00 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:28:00 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2026-02-03 12:28:00 [restartedMain] INFO  com.reginyuan.job.JobApplication - Started JobApplication in 0.83 seconds (JVM running for 1989.516)
+2026-02-03 12:28:00 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-02-03 12:28:02 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-02-03 12:28:02 [Thread-34] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:28:02 [Thread-34] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-02-03 12:28:02 [Thread-34] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:28:02 [Thread-34] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:28:02 [restartedMain] INFO  com.reginyuan.job.JobApplication - Starting JobApplication using Java 1.8.0_472 on ReginYuan with PID 27868 (D:\code\java\job\target\classes started by Administrator in D:\code\java\job)
+2026-02-03 12:28:02 [restartedMain] INFO  com.reginyuan.job.JobApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-03 12:28:02 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2026-02-03 12:28:02 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:28:02 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-03 12:28:02 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2026-02-03 12:28:02 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-03 12:28:02 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 287 ms
+2026-02-03 12:28:03 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-02-03 12:28:03 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-02-03 12:28:03 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:28:03 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2026-02-03 12:28:03 [restartedMain] INFO  com.reginyuan.job.JobApplication - Started JobApplication in 0.596 seconds (JVM running for 1991.915)
+2026-02-03 12:28:03 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-02-03 12:28:35 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-02-03 12:28:35 [Thread-38] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:28:35 [Thread-38] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-02-03 12:28:35 [Thread-38] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:28:35 [Thread-38] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:28:35 [restartedMain] INFO  com.reginyuan.job.JobApplication - Starting JobApplication using Java 1.8.0_472 on ReginYuan with PID 27868 (D:\code\java\job\target\classes started by Administrator in D:\code\java\job)
+2026-02-03 12:28:35 [restartedMain] INFO  com.reginyuan.job.JobApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-03 12:28:35 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2026-02-03 12:28:35 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:28:35 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-03 12:28:35 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2026-02-03 12:28:35 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-03 12:28:35 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 205 ms
+2026-02-03 12:28:35 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-02-03 12:28:35 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-02-03 12:28:35 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:28:35 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2026-02-03 12:28:35 [restartedMain] INFO  com.reginyuan.job.JobApplication - Started JobApplication in 0.386 seconds (JVM running for 2024.673)
+2026-02-03 12:28:35 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-02-03 12:29:02 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-02-03 12:29:02 [Thread-42] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:29:02 [Thread-42] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-02-03 12:29:02 [Thread-42] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:29:03 [Thread-42] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:29:03 [restartedMain] INFO  com.reginyuan.job.JobApplication - Starting JobApplication using Java 1.8.0_472 on ReginYuan with PID 27868 (D:\code\java\job\target\classes started by Administrator in D:\code\java\job)
+2026-02-03 12:29:03 [restartedMain] INFO  com.reginyuan.job.JobApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-03 12:29:03 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2026-02-03 12:29:03 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:29:03 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-03 12:29:03 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2026-02-03 12:29:03 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-03 12:29:03 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 358 ms
+2026-02-03 12:29:03 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-02-03 12:29:03 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-02-03 12:29:03 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:29:03 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2026-02-03 12:29:03 [restartedMain] INFO  com.reginyuan.job.JobApplication - Started JobApplication in 0.652 seconds (JVM running for 2052.537)
+2026-02-03 12:29:03 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-02-03 12:29:49 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-02-03 12:29:50 [Thread-46] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:29:50 [Thread-46] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-02-03 12:29:50 [Thread-46] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:29:50 [Thread-46] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:29:50 [restartedMain] INFO  com.reginyuan.job.JobApplication - Starting JobApplication using Java 1.8.0_472 on ReginYuan with PID 27868 (D:\code\java\job\target\classes started by Administrator in D:\code\java\job)
+2026-02-03 12:29:50 [restartedMain] INFO  com.reginyuan.job.JobApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-03 12:29:50 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2026-02-03 12:29:50 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:29:50 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-03 12:29:50 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2026-02-03 12:29:50 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-03 12:29:50 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 200 ms
+2026-02-03 12:29:50 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-02-03 12:29:50 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-02-03 12:29:50 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:29:50 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2026-02-03 12:29:50 [restartedMain] INFO  com.reginyuan.job.JobApplication - Started JobApplication in 0.373 seconds (JVM running for 2099.46)
+2026-02-03 12:29:50 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-02-03 12:30:06 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-02-03 12:30:06 [Thread-50] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:30:06 [Thread-50] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-02-03 12:30:06 [Thread-50] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:30:06 [Thread-50] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:30:06 [restartedMain] INFO  com.reginyuan.job.JobApplication - Starting JobApplication using Java 1.8.0_472 on ReginYuan with PID 27868 (D:\code\java\job\target\classes started by Administrator in D:\code\java\job)
+2026-02-03 12:30:06 [restartedMain] INFO  com.reginyuan.job.JobApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-03 12:30:07 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2026-02-03 12:30:07 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:30:07 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-03 12:30:07 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2026-02-03 12:30:07 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-03 12:30:07 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 268 ms
+2026-02-03 12:30:07 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-02-03 12:30:07 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-02-03 12:30:07 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:30:07 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2026-02-03 12:30:07 [restartedMain] INFO  com.reginyuan.job.JobApplication - Started JobApplication in 0.501 seconds (JVM running for 2116.126)
+2026-02-03 12:30:07 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-02-03 12:32:06 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-02-03 12:32:07 [Thread-54] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:32:07 [Thread-54] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-02-03 12:32:07 [Thread-54] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:32:07 [Thread-54] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:32:07 [restartedMain] INFO  com.reginyuan.job.JobApplication - Starting JobApplication using Java 1.8.0_472 on ReginYuan with PID 27868 (D:\code\java\job\target\classes started by Administrator in D:\code\java\job)
+2026-02-03 12:32:07 [restartedMain] INFO  com.reginyuan.job.JobApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-03 12:32:09 [restartedMain] INFO  com.reginyuan.job.JobApplication - Starting JobApplication using Java 1.8.0_472 on ReginYuan with PID 27868 (D:\code\java\job\target\classes started by Administrator in D:\code\java\job)
+2026-02-03 12:32:09 [restartedMain] INFO  com.reginyuan.job.JobApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-03 12:32:10 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2026-02-03 12:32:10 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:32:10 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-03 12:32:10 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2026-02-03 12:32:10 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-03 12:32:10 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 280 ms
+2026-02-03 12:32:10 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-02-03 12:32:10 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2026-02-03 12:32:19 [restartedMain] INFO  com.reginyuan.job.JobApplication - Starting JobApplication using Java 1.8.0_472 on ReginYuan with PID 27868 (D:\code\java\job\target\classes started by Administrator in D:\code\java\job)
+2026-02-03 12:32:19 [restartedMain] INFO  com.reginyuan.job.JobApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-03 12:32:20 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2026-02-03 12:32:20 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:32:20 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-03 12:32:20 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2026-02-03 12:32:20 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-3].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-03 12:32:20 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 306 ms
+2026-02-03 12:32:20 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-02-03 12:32:20 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2026-02-03 12:34:29 [restartedMain] INFO  com.reginyuan.job.JobApplication - Starting JobApplication using Java 1.8.0_472 on ReginYuan with PID 27868 (D:\code\java\job\target\classes started by Administrator in D:\code\java\job)
+2026-02-03 12:34:29 [restartedMain] INFO  com.reginyuan.job.JobApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-03 12:34:29 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2026-02-03 12:34:29 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:34:29 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-03 12:34:29 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2026-02-03 12:34:29 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-4].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-03 12:34:29 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 205 ms
+2026-02-03 12:34:29 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-02-03 12:34:29 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-02-03 12:34:29 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:34:29 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2026-02-03 12:34:29 [restartedMain] INFO  com.reginyuan.job.JobApplication - Started JobApplication in 0.372 seconds (JVM running for 2378.2)
+2026-02-03 12:34:29 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-02-03 12:35:20 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-02-03 12:35:21 [Thread-58] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:35:21 [Thread-58] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-02-03 12:35:21 [Thread-58] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:35:21 [Thread-58] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:35:21 [restartedMain] INFO  com.reginyuan.job.JobApplication - Starting JobApplication using Java 1.8.0_472 on ReginYuan with PID 27868 (D:\code\java\job\target\classes started by Administrator in D:\code\java\job)
+2026-02-03 12:35:21 [restartedMain] INFO  com.reginyuan.job.JobApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-03 12:35:21 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2026-02-03 12:35:21 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:35:21 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-03 12:35:21 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2026-02-03 12:35:21 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-4].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-03 12:35:21 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 221 ms
+2026-02-03 12:35:21 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-02-03 12:35:21 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2026-02-03 12:35:22 [restartedMain] INFO  com.reginyuan.job.JobApplication - Starting JobApplication using Java 1.8.0_472 on ReginYuan with PID 27868 (D:\code\java\job\target\classes started by Administrator in D:\code\java\job)
+2026-02-03 12:35:22 [restartedMain] INFO  com.reginyuan.job.JobApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-03 12:35:23 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2026-02-03 12:35:23 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:35:23 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-03 12:35:23 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2026-02-03 12:35:23 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-5].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-03 12:35:23 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 170 ms
+2026-02-03 12:35:23 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-02-03 12:35:23 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-02-03 12:35:23 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:35:23 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2026-02-03 12:35:23 [restartedMain] INFO  com.reginyuan.job.JobApplication - Started JobApplication in 0.337 seconds (JVM running for 2432.065)
+2026-02-03 12:35:23 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-02-03 12:38:33 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-02-03 12:38:33 [Thread-70] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:38:33 [Thread-70] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-02-03 12:38:33 [Thread-70] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:38:33 [Thread-70] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:38:34 [restartedMain] INFO  com.reginyuan.job.JobApplication - Starting JobApplication using Java 1.8.0_472 on ReginYuan with PID 27868 (D:\code\java\job\target\classes started by Administrator in D:\code\java\job)
+2026-02-03 12:38:34 [restartedMain] INFO  com.reginyuan.job.JobApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-03 12:38:34 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2026-02-03 12:38:34 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:38:34 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-03 12:38:34 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2026-02-03 12:38:34 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-5].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-03 12:38:34 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 306 ms
+2026-02-03 12:38:34 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-02-03 12:38:34 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-02-03 12:38:34 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:38:34 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2026-02-03 12:38:34 [restartedMain] INFO  com.reginyuan.job.JobApplication - Started JobApplication in 0.599 seconds (JVM running for 2623.388)
+2026-02-03 12:38:34 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-02-03 12:38:35 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-02-03 12:38:36 [Thread-77] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:38:36 [Thread-77] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-02-03 12:38:36 [Thread-77] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:38:36 [Thread-77] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:38:36 [restartedMain] INFO  com.reginyuan.job.JobApplication - Starting JobApplication using Java 1.8.0_472 on ReginYuan with PID 27868 (D:\code\java\job\target\classes started by Administrator in D:\code\java\job)
+2026-02-03 12:38:36 [restartedMain] INFO  com.reginyuan.job.JobApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-03 12:38:36 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2026-02-03 12:38:36 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:38:36 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-03 12:38:36 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2026-02-03 12:38:36 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-5].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-03 12:38:36 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 208 ms
+2026-02-03 12:38:36 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-02-03 12:38:36 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-02-03 12:38:36 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2026-02-03 12:38:36 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2026-02-03 12:38:36 [restartedMain] INFO  com.reginyuan.job.JobApplication - Started JobApplication in 0.439 seconds (JVM running for 2625.587)
+2026-02-03 12:38:36 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-02-03 12:47:11 [http-nio-8090-exec-3] INFO  o.a.c.c.ContainerBase.[Tomcat-5].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-03 12:47:11 [http-nio-8090-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-03 12:47:11 [http-nio-8090-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2026-02-03 12:47:11 [http-nio-8090-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2026-02-03 12:47:11 [http-nio-8090-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2026-02-03 13:52:20 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2026-02-03 13:52:20 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.

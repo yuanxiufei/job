@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.reginyuan.job.mapper.JobsMapper">
+
+    <resultMap id="BaseResultMap" type="com.reginyuan.job.domain.Jobs">
+            <id property="id" column="id" />
+            <result property="jobTitle" column="job_title" />
+            <result property="categoryName" column="category_name" />
+            <result property="salary" column="salary" />
+            <result property="city" column="city" />
+            <result property="jobDesc" column="job_desc" />
+            <result property="company" column="company" />
+            <result property="companyInfo" column="company_info" />
+            <result property="author" column="author" />
+            <result property="authorPhoto" column="author_photo" />
+            <result property="publishTime" column="publish_time" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,job_title,category_name,salary,city,job_desc,
+        company,company_info,author,author_photo,publish_time
+    </sql>
+    <select id="countByCategoryName" resultType="com.reginyuan.job.vo.JobsByCategoryVo">
+        SELECT js.category_name,
+               jc.category_desc,
+               COUNT(js.id) AS quantity
+        FROM jobs js
+                 LEFT JOIN
+             job_category jc ON js.category_name = jc.category_name
+        GROUP BY js.category_name
+        ORDER BY quantity DESC;
+    </select>
+    <select id="countByCity" resultType="com.reginyuan.job.vo.JobsByCityVo">
+        SELECT
+            j.city,
+            j.category_name AS categoryName,
+            c.category_desc AS categoryDesc,
+            COUNT(j.id) AS quantity
+        FROM jobs j
+                 LEFT JOIN job_category c
+                           ON j.category_name = c.category_name
+        GROUP BY j.city, j.category_name, c.category_desc
+        ORDER BY quantity DESC;
+    </select>
+
+    <select id="countByProvince" resultType="com.reginyuan.job.vo.JobsByProvinceVo">
+        SELECT c.province, COUNT(js.id) AS quantity
+        FROM jobs js
+                 LEFT JOIN city c
+                           ON js.city like concat('%', c.city, '%')
+                               || js.city like concat('%', c.province, '%')
+        where c.province != ""
+        GROUP BY
+            c.province
+        ORDER BY
+            quantity DESC;
+    </select>
+
+
+</mapper>

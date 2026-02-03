@@ -1,0 +1,14 @@
+2026-01-14 22:35:27.528  INFO 21212 --- [restartedMain] com.reginyuan.job.JobApplication         : Starting JobApplication using Java 1.8.0_472 on ReginYuan with PID 21212 (D:\code\java\job\target\classes started by Administrator in D:\code\java\job)
+2026-01-14 22:35:27.529  INFO 21212 --- [restartedMain] com.reginyuan.job.JobApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-01-14 22:35:27.677  INFO 21212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2026-01-14 22:35:27.679  INFO 21212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-14 22:35:27.680  INFO 21212 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2026-01-14 22:35:27.692  INFO 21212 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-14 22:35:27.692  INFO 21212 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 162 ms
+2026-01-14 22:35:27.753  INFO 21212 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-01-14 22:35:27.782  INFO 21212 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-01-14 22:35:27.789  INFO 21212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2026-01-14 22:35:27.792  INFO 21212 --- [restartedMain] com.reginyuan.job.JobApplication         : Started JobApplication in 0.296 seconds (JVM running for 543.274)
+2026-01-14 22:35:27.793  INFO 21212 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-14 22:36:02.687  INFO 21212 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-01-14 22:36:02.998  INFO 21212 --- [Thread-17] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
